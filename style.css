@@ -1,6 +1,8 @@
 body {
-    background: url("https://klike.net/uploads/posts/2019-05/1556705608_3.jpg") no-repeat;
+    background: url("https://i.pinimg.com/736x/0d/6c/36/0d6c3686623df1d49a08e4cd1fdda1cc.jpg") 
+        no-repeat;
     background-attachment: fixed;
+    background-position: center ;
 }
 
 .square{
@@ -25,7 +27,7 @@ body {
 }
 
 .notHot.important {
-    background: blue;
+    background: url(https://klike.net/uploads/posts/2019-05/1556705608_3.jpg);
 }
 
 .notImportant.notHot{
@@ -39,3 +41,4 @@ body {
     align-items: center;
     
 } */
+
