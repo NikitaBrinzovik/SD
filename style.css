@@ -1,3 +1,41 @@
-.square{
-    display: flex;
+body {
+    background: url("https://klike.net/uploads/posts/2019-05/1556705608_3.jpg") no-repeat;
+    background-attachment: fixed;
 }
+
+.square{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: space-around; */
+    border:black 3px solid;
+    padding: 1%;
+    margin: 4px;
+    column-gap: 8px;
+    row-gap: 8px;
+  
+    
+}
+
+.hot {
+    background:rgb(63, 177, 69);
+}
+
+.important {
+    background:  red;
+}
+
+.notHot.important {
+    background: blue;
+}
+
+.notImportant.notHot{
+    background: rgb(161, 161, 22);
+}
+
+
+/* .square{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+} */
